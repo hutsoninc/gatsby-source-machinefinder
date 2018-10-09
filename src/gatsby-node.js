@@ -17,8 +17,8 @@ function parseString(str) {
         xml2js.parseString(str, (err, res) => {
             if (err) return reject(err);
             resolve(res);
-        })
-    })
+        });
+    });
 }
 
 function flattenObj(obj) {
@@ -46,11 +46,11 @@ exports.sourceNodes = async ({ boundActionCreators }, options) => {
         if (typeof machine === 'object') {
 
             // Flatten first layer
-            flattenObj(machine)
+            flattenObj(machine);
 
             // Flatten images
             if (machine.images && machine.images.image && machine.images.image.length) {
-                let images = []
+                let images = [];
                 machine.images.image.forEach(img => {
                     if (img.filePointer && img.filePointer.length) {
                         if (img.filePointer[0].indexOf('http:') != -1) {
