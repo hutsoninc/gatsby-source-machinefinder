@@ -22,14 +22,10 @@ plugins: [
 ]
 ```
 
-## Authors
-
-* **Austin Gordon** - *Development* - [GitHub](https://github.com/AustinLeeGordon)
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+MIT © [Hutson Inc](https://www.hutsoninc.com)
 
 ## Acknowledgements
 
-* **Kennedy Rose** - *Developed Plugin* - [GitHub](https://github.com/kennedyrose)
+* **Kennedy Rose** - *Developed Original Plugin* - [GitHub](https://github.com/kennedyrose)

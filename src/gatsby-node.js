@@ -31,9 +31,9 @@ function flattenObj(obj) {
     return obj;
 }
 
-exports.sourceNodes = async ({ boundActionCreators }, options) => {
+exports.sourceNodes = async ({ actions }, options) => {
 
-    const { createNode } = boundActionCreators;
+    const { createNode } = actions;
 
     console.log('Fetching MachineFinder equipment');
 
